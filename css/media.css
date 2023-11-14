@@ -28,6 +28,13 @@
     }
     .login h1{
         padding-top: 35%;
+        font-size: 32px;
+    }
+    .login h3{
+        font-size: 24px;
+    }
+    .information h2{
+        font-size: 32px;
     }
     .library .d-flex {
         flex-direction: column;
@@ -78,4 +85,162 @@ footer .d-flex{
 }
 
 
+}
+@media screen and (max-width:697px){
+    .map{
+        display: none;
+    }
+    .navigation{ 
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+    .language{
+        display: none;
+    }
+    .container{
+        padding: 20px;
+    }
+    .login h1{
+        padding-top: 40%;
+    }
+    
+}
+@media screen and (max-width: 490px){
+    .login h1{
+        font-size: 20px;
+        padding-top: 45%;
+    }
+    .login h3{
+        font-size: 15px;
+    }
+    header{
+        height: 70px;
+    }
+    header .menu{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .login form{
+        display: block;
+        margin-top: 60px;
+
+    }
+    .login form button{
+        display: block;
+        margin: auto;
+        max-width: 500px;
+        padding: 15px 0;
+        margin-top: 40px;
+        font-size: 14px;
+    }
+    header h3{
+        padding-left: 5px;
+        font-size: 20px;
+    }
+    .logo{
+        max-width: 40px;
+    }
+    .search{
+        max-width: 40px;
+    }
+    .hamburger-menu{
+        padding-bottom: 20px;
+    }
+    .work{
+        display: block;
+        margin: auto;
+    }
+    .column_work_1{
+        text-align: center;
+        margin: auto;
+        padding-top: 30px;
+    }
+    .footer h4{
+        padding-top: 30px;
+    }
+    .paragraph1{
+        margin-top: 35px;
+    }
+    .column_work_2{
+        text-align: center;
+        margin: auto;
+        padding-top: 30px;
+    }
+    .paragraph2{
+        margin-top: 35px;
+    }
+    .law{
+        padding-top: 80px;
+    }
+    .network {
+        padding-top: 60px;
+    }
+    .network li{
+        max-width: 40px;
+        height: 30px;
+    }
+.network li img {
+    max-height: 30px;}
+    .bg p{
+        font-size: 14px;
+    }
+    .bg{
+        max-height: 200px;
+    }
+    .login form input{
+        font-size: 14px;
+    }
+    .login_bottom a{
+        font-size: 14px;
+    }
+    .login_bottom{
+        margin-top: 45px;
+        padding: 15px 0;
+    }
+    .information h2{
+        font-size: 24px;
+        margin-top: 40px;
+    }
+    .information div{
+        margin-top: 15px;
+    }
+    .item h2{
+        font-size: 20px;
+    }
+    .resours h2{
+        font-size: 20px;
+    }
+    .resours{
+        padding: 20px 0;
+    }
+}
+@media screen and (max-width: 470px){
+    .images{
+        max-width: 300px;
+    }
+    .information{
+        max-width: 300px;
+    }
+    .library{
+        padding: 20px 0;
+    }
+    .news{
+        padding: 20px 0;
+    }
+    .resours h2{
+        margin-bottom: 40px;
+    }
+    .items_resours div img{
+        padding-bottom: 20px;
+    }
+    .items_resours div a{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 390px){
+    .mySlides img{
+        height: 175px;
+    }
 }
