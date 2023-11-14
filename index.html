@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONSL</title>
+    <link rel="icon" href="img/icons.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+        <div class="menu">
+
+                <a href="#">
+                    <img src="img/logo.svg" alt="" class="logo">
+                    <h3>ОННБ</h3>
+                    <img src="img/search_logo.svg" alt="" class="search">
+                </a>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="img/youtube_logo.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/instagram_logo.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/twitter_logo.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/facebook_logo.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="language">
+                    <img src="img/planet_logo.svg" alt="">
+                    <select name="language" id="lang">
+                        <option value="lang">Ukraine</option>
+                        <option value="lang">English</option>
+                    </select>
+                </div>
+            </nav>
+        </div>
+
+        <div class="navigation">
+            <div class="container">
+            <ul class="nav">
+                <li>
+                    <a href="http://odnb.odessa.ua/view_cat.php?cat=30">
+                        Про бібліотеку
+                    </a>
+                </li>
+                <li class="dropdown_nav">
+                    <a href="" class="parents_nav">Категорії
+                        <img src="img/arrow.svg" alt="">
+                    </a>
+                    <div class="child_nav">
+                        <a href="http://odnb.odessa.ua/view_cat.php?cat=39">Видання ОННБ</a>
+                        <a href="http://odnb.odessa.ua/view_cat.php?cat=37">Партнерські проєкти</a>
+                        <a href="http://odnb.odessa.ua/view_post.php?id=2109">Міжнародна співпраця</a>
+                        <a href="http://odnb.odessa.ua/view_cat.php?cat=29">Ресурси Інтернету</a>
+                        <a href="http://odnb.odessa.ua/view_cat.php?cat=34">Державні закупівлі</a>
+                        <a href="http://odnb.odessa.ua/view_cat.php?cat=53">Благодійництво</a>
+                        <a href="http://odnb.odessa.ua/view_cat.php?cat=40">Бібліотека дякує</a>
+                        <a href="http://odnb.odessa.ua/view_cat.php?cat=52"> Бібліотека рекомендує</a>
+                        <a href="http://odnb.odessa.ua/view_cat.php?cat=33">Люди щедрих сердець</a>
+                        <a href="http://odnb.odessa.ua/view_cat.php?cat=51">ОННБ у дзеркалі ЗМІ</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://odnb.odessa.ua/events.php">
+                        Події
+                    </a>
+                </li>
+                <li class="map_phone">
+                    <a href="http://odnb.odessa.ua/events.php">
+                        map
+                    </a>
+                    
+                </li>
+                <li class="dropdown_nav">
+                    <a href="" class="parents_nav">Ресурси
+                        <img src="img/arrow.svg" alt="">
+                    </a>
+                    <div class="child_nav">
+                        <a href="http://odnb.odessa.ua/view_post.php?id=4351">ВЗНВФ пропонує маловикористовувані видання за системою депозитарного зберігання</a>
+                        <a href="http://odnb.odessa.ua/view_post.php?id=901">Періодика</a>
+                        <a href="http://odnb.odessa.ua/view_cat.php?cat=54">Комплектування фондів ОННБ</a>
+                        <a href="http://odnb.odessa.ua/view_post.php?id=1928">Наукові фахові видання України</a>
+                        <a href="http://odnb.odessa.ua/view_post.php?id=1487">Електронний каталог ОННБ</a>
+                        <a href="http://odnb.odessa.ua/view_post.php?id=91">Бази даних власної генерації</a>
+                        <a href="http://odnb.odessa.ua/view_post.php?id=1031">Бази даних</a>
+                        <a href="http://odnb.odessa.ua/vnn/">Виставка нових надходжень</a>
+                        <a href="http://odnb.odessa.ua/view_post.php?id=99">Фонди</a>
+                        <a href="http://odnb.odessa.ua/view_post.php?id=98">Каталоги і картотеки</a>
+                        <a href="http://www.odnb.odessa.ua/download.php">Електрона бібліотека</a>
+                        <a href="http://odnb.odessa.ua/view_post.php?id=74">Обмінно-резервний фонд</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://odnb.odessa.ua/view_post.php?id=77">
+                        Контакти
+                    </a>
+                </li>
+            </ul>
+            </div>
+            <div></div>
+    </div>
+    </header>
+<main>
+<section class="login">
+    <div class="container">
+        <h1>Одеська національна наукова бібліотека</h1>
+        <h3>перша публічна книгозбірня в Україні</h3>
+        <form action="#">
+            <input type="text" placeholder="Номер читацького квитка або пошта">
+            <button type="submit">Увійти</button>
+        </form>
+        <div class="login_bottom">
+        <a href="#" >Зареєструватися</a>
+        </div>
+    </div>
+</section>
+<section class="library">
+    <div class="container d-flex">
+        <div class="images">
+            <img src="img/library_1.png" alt="">
+        </div>
+
+        <div class="information">
+            <h2>Про бібліотеку</h2>
+            <div>
+                <div class="cell"><a href="http://odnb.odessa.ua/view_cat.php?cat=31">Обслуговування</a></div>
+                <div  class="cell"><a href="http://odnb.odessa.ua/view_post.php?id=1478">Графік</a></div>
+            
+                <div  class="cell"><a href="http://odnb.odessa.ua/Putivnik/slides.html">Путівник</a></div>
+                <div  class="cell"><a href="http://odnb.odessa.ua/subscribe.php">Послуги</a></div>
+            
+                <div  class="cell"><a href="http://odnb.odessa.ua/view_post.php?id=108">Історія</a></div>
+                <div  class="cell"><a href="http://odnb.odessa.ua/view_post.php?id=337">Вакансії</a></div>
+            </div>
+
+        </div>
+        <div class="images">
+            <img src="img/library_2.png" alt="">
+        </div>
+    </div>
+</section>
+<section class="news">
+    <div class="container">
+        <div class="item">
+            <h2>Події та новини</h2>
+        </div>
+        
+        
+        <div class="slideshow_container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 9</div>
+                <a href="http://odnb.odessa.ua/view_post.php?id=4395">
+                    <img src="img/golodomor.png" alt="">
+                    </a>
+                
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 9 </div>
+                <a href="http://odnb.odessa.ua/view_post.php?id=4347">
+                <img src="img/kurs-lekcij-2-1 1.png" alt="">
+                </a>
+                
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"> 3 / 9</div>
+                <a href="http://odnb.odessa.ua/view_post.php?id=4348">
+                <img src="img/obkladinka-na-kurs.jpg" alt="">
+                </a>
+                
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"> 4 / 9</div>
+                <a href="http://odnb.odessa.ua/view_post.php?id=4345">
+                <img src="img/pisemnist_2023_p_1.jpg" alt="">
+                </a>
+               
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"> 5 / 9</div>
+                <a href="http://odnb.odessa.ua/view_post.php?id=4403">
+                <img src="img/plan.jpeg" alt="">
+                </a>
+                <div class="text">План заходів на листопад 2023 року</div>
+               
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"> 6 / 9</div>
+                <a href="http://odnb.odessa.ua/view_post.php?id=3807">
+                <img src="img/00.jpg" alt="">
+                </a>
+                <div class="text">Курс публічних лекцій «Формування українського етносу та нації»</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"> 7 / 9</div>
+                <a href="http://odnb.odessa.ua/view_post.php?id=4414">
+                <img src="img/antology.jpeg" alt="">
+                </a>
+                <div class="text">
+                    Антологія сучасної поезії: ТОП-5 книжок листопада</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"> 8 / 9</div>
+                <a href="">
+                <img src="img/onnb-bkarantin.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"> 9 / 9</div>
+                <a href="http://odnb.odessa.ua/view_post.php?id=3002">
+                <img src="img/look_around.jpeg" alt="">
+                </a>
+                <div class="text">Оглядові та тематичні екскурсії залами бібліотеки</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+            <a class="next" onclick="plusSlides(1)">&#10095</a>
+
+        </div>
+        <br>
+        <div class="ball">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+        </div>
+    </div>
+</section>
+<section class="resours">
+    <div class="container">
+        <h2>Ресурси бібліотеки</h2>
+        <div class="items_resours">
+            <div>
+                <img src="img/resours_1.png" alt="">
+                <a href="http://odnb.odessa.ua/view_post.php?id=98">Каталоги та картотеки</a>
+            </div>
+            <div>
+                <img src="img/resours_2.png" alt="">
+                <a href="Періодика">Періодика</a>
+            </div>
+            <div>
+                <img src="img/resours_3.png" alt="">
+                <a href="http://odnb.odessa.ua/view_post.php?id=99">Фонди</a>
+            </div>
+            <div>
+                <img src="img/resours_4.png" alt="">
+                <a href="http://odnb.odessa.ua/view_post.php?id=1928">Наукові фахові видання</a>
+            </div>
+            <div>
+                <img src="img/resours_5.png" alt="">
+                <a href="http://odnb.odessa.ua/view_post.php?id=1487">Електроний каталог</a>
+            </div>
+            <div>
+                <img src="img/resours_6.png" alt="">
+                <a href="http://odnb.odessa.ua/vnn/">Нові надходження</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<section class="map">
+    <div class="container">
+        <div class="items">
+            <h2> 
+                Повна мапа сайту
+            </h2>
+        </div>
+     <div class="map_list">
+        <div class="map_nav_nolist"> <a href="http://odnb.odessa.ua/"> Головна </a></div>
+        <div class="map_nav_nolist"> <a href="http://odnb.odessa.ua/view_cat.php?cat=27"> Новини </a> </div>
+        <div class="dropdown">
+            <a class="parents">Ресурси бібліотеки
+            <img src="img/arrow.svg" alt="">
+        </a>
+        <div class="child">
+            <a href="http://www.odnb.odessa.ua/view_post.php?id=1031">Бази даних</a>
+            <a href="http://www.odnb.odessa.ua/view_post.php?id=901">Періодика</a>
+            <a href="http://www.odnb.odessa.ua/view_post.php?id=91">Бази даних власної генерації</a>
+            <a href="http://odnb.odessa.ua/download.php">Електрона бібліотека</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=98">Каталоги і картотеки</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=99">Фонди</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=420">Виставка нових надходжень</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=74"> Обмінно-резервний фонд</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=326">Організація депозитарного збері­гання літератури</a>
+        </div>
+    </div>
+</div>
+<div class="map_list">
+     <div class="dropdown">
+            <a href="" class="parents">Ресурси Інтернету
+            <img src="img/arrow.svg" alt="">
+        </a>
+        <div class="child">
+            <a href="http://odnb.odessa.ua/view_post.php?id=323">Електронні каталоги бібліотек України</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=324">Електронні каталоги найбільших зарубіжних бібліотек</a>
+        </div>
+    </div>
+     <div class="dropdown">
+            <a href="" class="parents">Про бібліотеку
+            <img src="img/arrow.svg" alt="">
+        </a>
+        <div class="child">
+            <a href="http://www.odnb.odessa.ua/subscribe.php">Послуги бібліотеки</a>
+            <a href="http://www.odnb.odessa.ua/Putivnik/slides.html">Схема та путівник по бібліотеці</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=1478">Графік роботи бібліотеки</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=153">Відділи бібліотеки</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=108">Історія бібліотеки</a>
+            <a href="http://odnb.odessa.ua/virtual-museum/">Музей історії ОННБ</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=77">Контакти</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=337"> Вакансії</a>
+        </div>
+    </div>
+     <div class="dropdown">
+            <a href="" class="parents padding_tab">Система обслуговування
+            <img src="img/arrow.svg" alt="">
+        </a>
+        <div class="child">
+            <a href="http://odnb.odessa.ua/view_post.php?id=113">Права та обов'язки користувачів</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=112">Порядок запису користувачів до бібліотеки</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=111">Поради читачеві</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=110">Схема розташування структурних підрозділів ОННБ</a>
+        </div>
+    </div>
+</div>
+<div class="map_list">
+     <div class="dropdown">
+            <a href="" class="parents">Краєзнавство Одещини
+            <img src="img/arrow.svg" alt="">
+        </a>
+        <div class="child">
+            <a href="http://odnb.odessa.ua/view_post.php?id=1376">Краєзнавчі ресурси партнерів ОННБ</a>
+            <a href="https://www.facebook.com/onnb.odessica/">Відділ краєзнавство "Одесика". Facebook</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=897">Міжнародна співпраця</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=695">Видання відділу краєзнавства</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=658">Нові надходження відділу краєзнавства «Одесика»</a>
+            <a href="http://odnb.odessa.ua/view_zpdcln.php">Календар знаменних та пам’ятних дат</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=79">Одеська область</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=80">Краєзнавство Одещини</a>
+            <a href="http://odnb.odessa.ua/view_cards.php">Картотека «Вулиці Одеси»</a>
+        </div>
+    </div>
+     <div class="dropdown">
+            <a href="" class="parents padding_tab">Діловий кейс бібліотекаря
+            <img src="img/arrow.svg" alt="">
+        </a>
+        <div class="child">
+            <a href="http://odnb.odessa.ua/view_post.php?id=645">Вибрані публікації фахівців ОННБ</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=119">Нормативно-правові та регламентуючі документи</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=538">Конференції, семінари, ділові зустрічі</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=646">Конкурси</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=638">Методичні матеріали</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=541">Дослідження</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=650">Книгознавчі розробки</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=584"> Література з актуальних питань бібліотечної справи</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=639">Професійний Інтернет</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=1215">Бібліоподорожі</a>
+        </div>
+    </div>
+     <div class="dropdown">
+            <a  href=""class="parents">Люди щедрих сердець
+            <img src="img/arrow.svg" alt="">
+        </a>
+        <div class="child">
+            <a href="http://odnb.odessa.ua/view_post.php?id=81">Люди щедрих сердець</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=242">Відеосюжети про «День подяки»</a>
+        </div>
+    </div>
+</div>
+<div class="map_list">
+     <div class="dropdown">
+            <a  href=""class="parents">Державні закупівлі
+            <img src="img/arrow.svg" alt="">
+        </a>
+        <div class="child">
+            <a href="http://odnb.odessa.ua/view_post.php?id=1410">Архів за 2016 рік</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=986">Архів за 2015 рік</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=938">Архів за 2014 рік</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=671">Архів за 2013 рік</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=550">Архів за 2012 рік</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=85">Архів за 2011 рік</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=84">Архів за 2009 рік</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=83">Архів за 2008 рік</a>
+        </div>
+    </div>
+     <div class="dropdown">
+            <a  href=""class="parents">Партнерські проекти
+            <img src="img/arrow.svg" alt="">
+        </a>
+        <div class="child">
+            <a href="http://odnb.odessa.ua/view_post.php?id=66">Вікно в Америку</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=68">Internet-центр</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=69">Німецький читальний зал в Одесі</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=163">Університет екологічних знань ОННБ</a>
+            <a href="http://odnb.odessa.ua/view_post.php?id=137"> Видавничі проекти</a>
+            <a href="http://odnb.odessa.ua/view_artGlry.php"> Віртуальний простір: виставки, концерти</a>
+        </div>
+    </div>
+     <div class="dropdown">
+            <a  href=""class="parents">Видання ОННБ
+            <img src="img/arrow.svg" alt="">
+        </a>
+        <div class="child">
+            <a href="http://odnb.odessa.ua/view_post.php?id=209"> Перелік праць 1995 – 2016 рр. Електронна бібліотека</a>
+        </div>
+    </div>
+</div>
+    </div>
+    <div class="thanks">
+        <a href="http://odnb.odessa.ua/view_cat.php?cat=40"> Бібліотека дякує</a>
+    </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+
+
+
+    <div class="d-flex"> 
+
+        <div class="footer">
+            <h4>Бібліотека працює:</h4>
+        <div class="work">
+            <div class="column_work_1">
+                <p>Понеділок-четверг:</p>
+                <p>9:00-19:00</p>
+                <p class="paragraph1">Субота-неділя:</p>
+                <p>10:00-18:00</p>
+            </div>
+            <div class="column_work_2">
+                <p>Вихідний день-п’ятниця</p>
+                <p class="paragraph2">Останій четверг місяця:</p>
+                <p class="paragraph3">Санітаний день. Бібліотека користувачів не обслуговує</p>
+            </div>
+            </div>
+        </div>
+
+
+
+        <div class="network">
+            <div class="bg">
+                <p>Наші соціальні мережі:</p>
+            </div>
+            
+            <ul>
+                <li>
+                    <a href="">
+                            <img src="img/youtube_logo.svg" alt="">
+                    </a>
+                </li>
+            <li>
+                <a href="">
+                        <img src="img/instagram_logo.svg" alt="">
+
+                </a>
+            </li>
+            <li>
+                <a href="">
+                        <img src="img/twitter_logo.svg" alt="">
+
+                </a>
+            </li>
+            <li>
+                <a href="">
+                        <img src="img/facebook_logo.svg" alt="">
+
+                </a>
+            </li>
+        </ul>
+        </div>
+
+
+    </div>
+
+
+    <p class="law">© 2023 Веб-сайт Одеської національної наукової бібліотеки</p>
+    <p class="law2">Всі парва захищено.При використанні матеріалів посилання на офіційний веб-сайт Одеської національної наукової бібліотеки обов’язкове</p>
+    </div>
+</footer>
+</main>
+<script src="js/script.js"></script>
+</body>
+</html>

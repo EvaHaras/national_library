@@ -1,0 +1,81 @@
+@media screen and (max-width:1024px){
+    .menu nav ul{
+        display: none;
+    }
+    .language{
+        max-width: 150px;
+    }
+    .language img{
+        max-width: 30px;
+    }
+    .dropdown:hover .child{
+        display: none;
+    }
+    .parents img{
+        display: none;
+    }
+    .parents_nav img{
+        display: none;
+    }
+    .navigation{
+        width: 100%;
+        max-width: 1024px;
+    }
+    .container{
+        max-width: 1024px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .login h1{
+        padding-top: 35%;
+    }
+    .library .d-flex {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .slideshow_container{
+        max-width: 500px;
+    }
+    .mySlides img{
+        height: 250px;
+    }
+    .items_resours {
+        max-width: 760px;
+        gap: 60px;
+    }
+    .map_list {
+        padding-top: 0px;
+        margin-top: 60px;
+        max-width: 796px;
+        margin-bottom: 60px;
+}
+.dropdown{
+    width: 200px;
+}
+.padding_tab{
+    padding-top: 20px;
+}
+.map_nav_nolist{
+    max-width: 200px;
+}
+footer .d-flex{
+    display: block;}
+.footer{
+    margin: auto;
+    text-align: center;
+}
+.footer h4{
+    padding-top: 50px;
+}
+.network{
+    padding-top: 40px;
+    margin: auto;
+    text-align: center;
+
+}
+.network ul{
+    padding-top: 40px;
+}
+
+
+}
