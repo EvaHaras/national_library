@@ -215,6 +215,9 @@ footer .d-flex{
     .resours{
         padding: 20px 0;
     }
+    .text{
+        font-size: 15px;
+    }
 }
 @media screen and (max-width: 470px){
     .images{
